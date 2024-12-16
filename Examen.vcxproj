@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="decryptPayload.cpp" />
     <ClCompile Include="http.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="decryptPayload.h" />
     <ClInclude Include="http.h" />
   </ItemGroup>
   <ItemGroup>
