@@ -42,3 +42,8 @@
 |Alternative Injection Methods (APC, etc.)|❌ Pas fait|
 |---|---|
 |Other Relevant Features|❌ Pas fait|
+
+Etape à suivre
+Télcharger l'ensemble des fichiers.
+Dans un powershell "python3 serveur.py"
+Il suffira maintenant de lancer le main.
