@@ -5,6 +5,7 @@
 
 #include "http.h"
 #include "decryptPayload.h"
+#include "inject.h"
 
 
 #include <tchar.h>
